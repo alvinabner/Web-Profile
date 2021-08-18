@@ -189,43 +189,59 @@ body {
 
 }
 
+.skill-title h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px;
+
+}
+
 .skill-all-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-all-container h2 {
     font-size: 20px;
 }
 
-.skill-1-container {
-    flex: 50%;
+.skill-container {
+    flex: auto;
+    width: 50%;
+    padding: 10px 20px;
 }
 
-.skill-meter-right {
-    height: 4px;
-    line-height: 4px;
-    width: auto;
-    color: #fff;
-    background-color: #007bff;
-    display: flex;
-    margin: 0px 15px 0px 0px;
+.bar {
+    background-color: rgb(118, 118, 255);
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-.skill-meter-left {
-    height: 4px;
-    line-height: 4px;
-    width: auto;
-    color: #fff;
-    background-color: #007bff;
-    display: flex;
-    margin: 0px 0px 0px 0px;
+.bar span {
+    height: 8px;
+    float: left;
+    background: rgb(206, 243, 255);
+    border-radius: 4px;
 }
 
-
-.skill-2-container {
-    flex: 50%;
+.html {
+    width: 90%;
 }
 
+.python {
+    width: 80%;
+}
+
+.team {
+    width: 90%;
+}
+
+.communication {
+    width: 90%;
+}
 
 /* FOOTER */
 .footer-wrapper {
