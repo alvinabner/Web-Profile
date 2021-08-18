@@ -1,0 +1,26 @@
+@media (max-width: 620px) {
+    .menu-icon {
+        display: block !important;
+        margin: 15px
+    }
+
+    .header-mid {
+        display: none;
+    }
+
+    
+    .top-profile {
+        padding: auto;
+        margin: auto;
+        width: 50%;
+        align-items: center;
+    }
+
+    .top-bio h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        margin: 0px;
+    }
+}

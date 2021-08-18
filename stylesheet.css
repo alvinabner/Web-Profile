@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+
+body {
+    font-family: quicksand, calibri;
+    background-color: #e2f1ff;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(24, 65, 141);
+}    
+
+.header-mid {
+    text-align: center;
+    margin: 20px;
+    margin-right: 40px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.header-mid a {
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.header-left h1 {
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    float: right;
+    font-size: 25px;
+    display: none !important;
+}
+
+.top-wrap {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    padding: 0px;
+}
+
+.top-content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.top-bio h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.top-bio-caption h2 {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.top-button-container {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.top-button-logo-contactme {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(82, 212, 255);
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+.top-button-logo-downloadcv {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(82, 212, 255);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+
+.top-button-container a {
+    text-decoration: none;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.button-container a {
+    background-color: rgb(164, 190, 219);
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0px 4px;
+}
+
+.black {
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgb(228, 238, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 5% 40px 5%;
+}
+
+.main {
+    display: flex;
+}
+
+.main h1{
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+.main-about p{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+}
+
+
+.main-data tr {
+    font-size: 15px;
+    margin: 10px;
+}
+
+#about {
+    flex: 50%;
+    margin: 10px
+}
+
+#data {
+    flex: 50%;
+    margin: 10px
+}
+
+.skill-title h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.skill-all-container {
+    display: flex;
+}
+
+.skill-all-container h2 {
+    font-size: 20px;
+}
+
+.skill-1-container {
+    flex: 50%;
+}
+
+.skill-meter-right {
+    height: 4px;
+    line-height: 4px;
+    width: auto;
+    color: #fff;
+    background-color: #007bff;
+    display: flex;
+    margin: 0px 15px 0px 0px;
+}
+
+.skill-meter-left {
+    height: 4px;
+    line-height: 4px;
+    width: auto;
+    color: #fff;
+    background-color: #007bff;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.skill-2-container {
+    flex: 50%;
+}
+
+
+/* FOOTER */
+.footer-wrapper {
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-btn-container {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-btn-container a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 8px 20px 8px;
+}
+
+.footer-title h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+}
+
+.footer-title p {
+    font-size: 10px;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
